@@ -2,9 +2,7 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-.addressfont {
-  font-style: normal;
-}
+
 
 }
 /* Фон и размеры блоков  */
@@ -94,6 +92,9 @@ a {
 .logoheder {
   color: #000000;
   font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
 .weblogo {
   color: #2196f3;
@@ -101,15 +102,22 @@ a {
 .logofooter{
   color: #FFFFFF;
   font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+ 
 }
 /* Доделать
--убрать маркировку в списках;
+-убрать маркировку в списках+;
 - стили заголовкам;
-- исправить параметры логотипа;
+- исправить параметры логотипа+;
 - ссылкам прописать шрифты, не отображаються в них.
 - не забудьте, что кожен текст может содержать высоту строки и межбуквенный интервал, а так же розмыри шрифта товщину
 */
 ul {
   list-style-type: none;
+}
+.addressfont {
+  font-style: normal;
 }
 
