@@ -1,12 +1,9 @@
 /* Подключение шрифтов*/
 body {
   font-family: "Roboto", sans-serif;
-   width: 1600px; 
+  width: 1600px;
   height: 1880px;
-  background: #FFFFFF; 
-}
-
-
+  background: #ffffff;
 }
 /* Фон и размеры блоков  */
 .first-section {
@@ -65,7 +62,6 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  
 }
 .adress-excretion:hover,
 .adress-excretion:focus {
@@ -82,7 +78,6 @@ a {
 .adress-footerone:focus {
   color: #2196f3;
 }
-
 .adress-footer {
   color: rgb(255, 255, 255, 60%);
   font-weight: normal;
@@ -101,11 +96,11 @@ a {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.06em
+  letter-spacing: 0.06em;
 }
 .buttom:hover,
 .buttom:focus {
-    color: #2196f3;
+  color: #2196f3;
   background-color: #ffffff;
 }
 .buttomportfolio {
@@ -132,28 +127,21 @@ a {
 .weblogo {
   color: #2196f3;
 }
-.logofooter{
-  color: #FFFFFF;
+.logofooter {
+  color: #ffffff;
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-/* Доделать
--убрать маркировку в списках+;
-- стили заголовкам;
-- исправить параметры логотипа+;
-- ссылкам прописать шрифты, не отображаються в них.+
-- не забудьте, что кожен текст может содержать высоту строки и межбуквенный интервал, а так же розмыри шрифта товщину
--не забудьте, що кожен текст має мати line-height і letter-spacing, а також розмыри шрифта ы товщину
-*/
+
 ul {
   list-style-type: none;
 }
 .addressfont {
   font-style: normal;
 }
-a.font-style { 
+a.font-style {
   font-family: "Roboto", sans-serif;
 }
 /* текст */
@@ -205,8 +193,3 @@ a.font-style {
   line-height: 1.88;
   letter-spacing: 0.03em;
 }
-
-
-
-
-
